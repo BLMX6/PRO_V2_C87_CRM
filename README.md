@@ -1,1 +1,1 @@
-# ST-87-Solution
+# PRO C87 Código de referencia para la maestra
