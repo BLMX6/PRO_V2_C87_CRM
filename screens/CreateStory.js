@@ -63,7 +63,7 @@ export default class CreateStory extends Component {
               ></Image>
             </View>
             <View style={styles.appTitleTextContainer}>
-              <Text style={styles.appTitleText}>New Story</Text>
+              <Text style={styles.appTitleText}>Nueva historia</Text>
             </View>
           </View>
           <View style={styles.fieldsContainer}>
@@ -108,7 +108,7 @@ export default class CreateStory extends Component {
               <TextInput
                 style={styles.inputFont}
                 onChangeText={(title) => this.setState({ title })}
-                placeholder={"Title"}
+                placeholder={"Título"}
                 placeholderTextColor="white"
               />
 
@@ -119,7 +119,7 @@ export default class CreateStory extends Component {
                   styles.inputTextBig,
                 ]}
                 onChangeText={(description) => this.setState({ description })}
-                placeholder={"Description"}
+                placeholder={"Descripción"}
                 multiline={true}
                 numberOfLines={4}
                 placeholderTextColor="white"
@@ -131,7 +131,7 @@ export default class CreateStory extends Component {
                   styles.inputTextBig,
                 ]}
                 onChangeText={(story) => this.setState({ story })}
-                placeholder={"Story"}
+                placeholder={"Historia"}
                 multiline={true}
                 numberOfLines={20}
                 placeholderTextColor="white"
@@ -144,7 +144,7 @@ export default class CreateStory extends Component {
                   styles.inputTextBig,
                 ]}
                 onChangeText={(moral) => this.setState({ moral })}
-                placeholder={"Moral of the story"}
+                placeholder={"Moraleja de la historia"}
                 multiline={true}
                 numberOfLines={4}
                 placeholderTextColor="white"
